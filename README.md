@@ -1,12 +1,43 @@
-# React + Vite
+# 🎬 React Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive movie browsing application built with **React** that fetches data from the **TMDB API**. Users can search for movies, view popular titles, and mark movies as favorites — which are persisted using local storage.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search for movies in real-time using TMDB API
+- 🎞️ Browse popular movies on load
+- ❤️ Add or remove movies from your favorites
+- 💾 Favorites are saved in local storage
+- 💡 Built with React functional components and hooks
+- 📱 Responsive and clean UI
 
-## Expanding the ESLint configuration
+## 🚀 Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 📸 Screenshots
+
+<img width="1907" height="857" alt="image" src="https://github.com/user-attachments/assets/d4fbcdbb-b860-4f11-b9bd-3723a47a9f31" />
+
+<img width="1499" height="779" alt="image" src="https://github.com/user-attachments/assets/2f63f2f0-6e09-49b9-889d-905f5a085611" />
+
+
+<!-- ![Favorites](screenshots/favorites.png) -->
+<img width="1903" height="560" alt="image" src="https://github.com/user-attachments/assets/cd74c289-5609-41d4-84e8-465581cb7712" />
+
+
+## 🛠 Tech Stack
+
+- **React** (with Hooks)
+- **React Router DOM**
+- **TMDB API**
+- **CSS Modules / Custom Styling**
+- **Local Storage** (for persisting favorites)
+
+## 📦 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-movie-explorer.git
+cd react-movie-explorer
